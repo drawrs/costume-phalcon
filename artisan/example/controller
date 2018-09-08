@@ -1,0 +1,15 @@
+<?php
+
+namespace Qodr\Controllers\NAME_FOLDER;
+
+use Qodr\Controllers\Base\Base;
+
+class NAME_CONTROLLER extends Base
+{
+
+    public function indexAction()
+    {
+
+    }
+
+}

@@ -1,0 +1,10 @@
+<?php
+
+require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/artisan/code/Artisan.php';
+
+$dotenv = new Dotenv\Dotenv(__DIR__);
+$dotenv->load();
+
+$artisan = new Artisan($argv, $argc);
+echo $artisan->run() . PHP_EOL ;

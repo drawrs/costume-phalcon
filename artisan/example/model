@@ -1,0 +1,19 @@
+<?php
+
+namespace Qodr\Model;
+
+class NAME_MODEL extends BaseModel
+{
+
+NAME_COLUMNS
+    public function initialize()
+    {
+        $this->setSource("NAME_TABLE");
+    }
+
+    public function getSource()
+    {
+        return 'NAME_TABLE';
+    }
+
+}

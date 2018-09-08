@@ -1,0 +1,19 @@
+{
+    "name": "root/project",
+    "require": {
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "require-dev": {
+        "filp/whoops": "2.*",
+        "robmorgan/phinx": "^0.9.2"
+    },
+    "authors": [
+        {
+            "name": "theger09",
+            "email": "im.saipulhidayat@gmail.com"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin"
+    }
+}

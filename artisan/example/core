@@ -1,0 +1,8 @@
+<?php
+
+namespace Qodr\Core;
+
+class NAME_CORE extends BaseCore
+{
+    
+}

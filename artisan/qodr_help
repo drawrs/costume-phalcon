@@ -1,0 +1,16 @@
+
+commands qodr artisan :
+    
+    model       create model
+    controller  create controller
+    core        create core
+    phinx       create phinx
+
+example :
+    php qodr model [name]
+    php qodr controller [name]
+    php qodr core [name]
+    php qodr phinx [options]
+
+version 1.0.0 (beta)
+
