@@ -1,9 +1,9 @@
-# !/storage/cache/views/.gitkeep
-# /storage/cache/views/*
-# !/storage/cache/metadata/.gitkeep
-# /storage/cache/metadata/*
-# !/storage/logs/.gitkeep
-# /storage/logs/*
+!/storage/cache/views/.gitkeep
+/storage/cache/views/*
+!/storage/cache/metadata/.gitkeep
+/storage/cache/metadata/*
+!/storage/logs/.gitkeep
+/storage/logs/*
 
 /vendor/
 /public/plugins/
