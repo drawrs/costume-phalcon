@@ -86,7 +86,7 @@ class Bootstrap
             
             $view->setDI(container());
             $view->setViewsDir($config->application->viewsDir);
-            $view->setMainView('layouts/template/base');
+            $view->setMainView('template/base');
             
             $view->registerEngines([
                 '.volt' => function ($view) {
@@ -94,9 +94,9 @@ class Bootstrap
                     $volt    = new VoltEngine($view, $this);
                     $setting = [
                         'compiledPath'      => $config->application->cacheViewDir,
-                        'compiledSeparator' => '_'
+                        'compiledSeparator' => '_',
+                        'compileAlways'     => (env('APP_COMPILE')) ? true : false
                     ];
-                    $setting['compileAlways'] = (env('APP_COMPILE')) ? true : false ;
                     $volt->setOptions($setting);
         
                     return $volt;
