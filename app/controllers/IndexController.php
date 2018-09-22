@@ -2,7 +2,7 @@
 
 namespace Qodr\Controllers;
 
-use Qodr\Controllers\ControllerBase;
+use Qodr\Controllers\Base\ControllerBase;
 
 class IndexController extends ControllerBase
 {
